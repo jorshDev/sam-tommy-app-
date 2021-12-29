@@ -65,7 +65,7 @@ body {
     display: flex;
     width: 85%;
     margin: 0 auto;
-    height: 10vh;
+    min-height: 10vh;
     align-items: center;
 }
 
@@ -642,9 +642,6 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    * {
-        overflow-x: hidden;
-    }
     .container-fluid {
         width: 100% !important;
     }
@@ -653,6 +650,13 @@ footer {
         color: white !important;
         max-width: 45px;
         height: 45px;
+    }
+    .navbar-nav {
+        text-align: center !important;
+        padding-top: 2em;
+    }
+    .nav_header :first-child {
+        margin-right: unset;
     }
     .nav_header a {
         margin-left: unset !important;

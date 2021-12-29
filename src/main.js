@@ -16,14 +16,15 @@ function sendMail(e) {
     e.preventDefault()
     var tempParams = {
         from_name: document.getElementById("name").value,
-        to_name: document.getElementById("email").value,
+        // to_name: document.getElementById("email").value,
         message: document.getElementById("msg").value,
     };
-    emailjs.send('service_00ui67j', 'template_mvmqwfi', tempParams, user_UYKI72Q35QSYVNWdrhB7R).then(function(res) {
+    emailjs.send('service_00ui67j', 'template_mvmqwfi', tempParams, 'user_UYKI72Q35QSYVNWdrhB7R').then(function(res) {
         console.log("success", res.status, res.text)
         alert("Message has been sent")
     }, function(err) {
         console.log(err)
     })
     console.log("success", res.status)
+    alert('Heeyyyyyyyyyyy')
 }
