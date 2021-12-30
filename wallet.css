@@ -50,3 +50,10 @@ a {
     border: 1px solid #0B65C6;
     color: #0B65C6 !important;
 }
+
+@media screen and (max-width:600px) {
+    .banner_safelock {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
