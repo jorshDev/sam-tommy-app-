@@ -31,26 +31,6 @@
     .nav_header {
         min-height: 10vh;
     }
-    /* #wallet__name {
-        height: 50px;
-        width: 600px;
-        margin: 50px auto;
-        border-radius: 10px;
-    } */
-    /*     
-    #recovery__phrase {
-        height: 200px;
-        width: 600px;
-        border-radius: 25px;
-    } */
-    /* #submit {
-        height: 50px;
-        width: 100px;
-        margin: 50px auto;
-        align-items: center;
-        border-radius: 10px;
-        color: #0B65C6;
-    } */
     
     input,
     textarea {

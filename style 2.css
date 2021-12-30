@@ -127,7 +127,6 @@ a {
 .home_dex,
 .home_security,
 .dapp_preview {
-    /* height: 816px; */
     max-width: 616px;
     width: 100%;
 }
@@ -158,65 +157,17 @@ p {
     margin: 20px auto;
 }
 
-
-/* .section_2 {
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 88%;
-    align-items: center;
-} */
-
-
-/* .home_dex {
-    max-width: 616px;
-    width: 100%;
-} */
-
 .home_dex>img {
     width: 100%;
     object-fit: contain;
     margin-left: 2.6em;
 }
 
-
-/* .section_3 {
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 88%;
-    align-items: center;
-} */
-
-
-/* .home_security {
-    max-width: 616px;
-    width: 100%;
-} */
-
 .home_security>img {
     width: 100%;
     object-fit: contain;
     margin-left: 2.6em;
 }
-
-
-/* .section_4 {
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 88%;
-    align-items: center;
-} */
-
-
-/* .dapp_preview {
-    max-width: 616px;
-    width: 100%;
-} */
 
 .dapp_preview>img {
     width: 100%;
